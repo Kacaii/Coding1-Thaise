@@ -32,5 +32,17 @@ console.log ('A média do aluno é ' + media)
 
 console.log (`A média do aluno é ${media}`)
 
-let preço = 1000
-let percentualDesconto
+let preco = 1000
+let percentualDesconto = 20
+let desconto = 0.2
+let valorComDesconto = preco - (desconto * preco)
+
+console.log (`O preço original do microondas é ${preco}`)
+console.log (`com o desconto de ${percentualDesconto}% na primeira compra, o valor final é de ${valorComDesconto}R$`)
+
+let renda = 2000
+let imposto = (10)
+let impostoRenda = (renda*imposto)/100
+
+console.log (`O valor a ser pago do imposto de renda é de R$ ${impostoRenda}`)
+
