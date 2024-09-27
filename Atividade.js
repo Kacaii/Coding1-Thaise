@@ -1,3 +1,5 @@
+// teste
+
 let nome = 'Thaise'
 let idade = 29
 let cidade = 'Olinda'  
@@ -45,4 +47,14 @@ let imposto = (10)
 let impostoRenda = (renda*imposto)/100
 
 console.log (`O valor a ser pago do imposto de renda é de R$ ${impostoRenda}`)
+
+let prompt = require('prompt-sync')();
+ 
+let graus = parseFloat(prompt('graus você quer converter?'))
+let fahre = (graus * 9/7) + 32
+ 
+console.log(`está fazendo ${fahre.toFixed(1)} graus fahrenheit`)
+
+
+
 
