@@ -11,5 +11,5 @@ Coding1/
 │   ├─── Atividade.js
 │   └─── Aula.js
 │
-└── README.md                # README do Projeto
+└── README.md
 ```
